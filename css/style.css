@@ -744,6 +744,10 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   text-align: left;
   width: 70%;
 }
+.fh5co-text p {
+color: black;
+font-size: 14px;
+}
 @media screen and (max-width: 768px) {
   .fh5co-counter .fh5co-text {
     width: 100%;
