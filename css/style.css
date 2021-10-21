@@ -1230,13 +1230,13 @@ font-size: 14px;
   }
 
 }
-/* ----------------------media 480px--------------------------------- */
+/* ----------------------media 767px--------------------------------- */
 @media screen and (max-width: 767px) {
 
   #site-title { 
   
    color: #3c3d3f;
-    margin: 0 35px 0 15px;
+    margin: 50px 35px 0 15px;
     font-size: 70px;
     /* width: 300px; */
     
