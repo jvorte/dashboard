@@ -268,10 +268,11 @@ figure figcaption {
 #fh5co-main .fh5co-narrow-content {
   position: relative;
   width: 93%;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
   clear: both;
+  
 }
+
 
 #fh5co-hero {
   min-height: 0px;
