@@ -151,15 +151,15 @@ figure figcaption {
 
 #fh5co-aside #fh5co-main-menu ul li {
   margin: 0 0 20px 0;
-  padding: 0;
+  padding: 10px;
   list-style: none;
 }
 #fh5co-aside #fh5co-main-menu ul li a {
   color: rgba(0, 0, 0, 0.9);
   text-decoration: none;
-  letter-spacing: .1em;
+  /* letter-spacing: .1em; */
   /* text-transform: uppercase; */
-  font-size: 13px;
+  /* font-size: 13px; */
   /* font-weight: 600; */
   position: relative;
   padding: 10px 10px;
@@ -168,7 +168,7 @@ figure figcaption {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  font-size: 20px;
+  font-size: 18px;
 }
 #fh5co-aside #fh5co-main-menu ul li a:after {
   content: "";
@@ -268,7 +268,7 @@ figure figcaption {
 #fh5co-main .fh5co-narrow-content {
   position: relative;
   width: 93%;
-  margin: 0 auto;  
+  margin: 150px auto;  
   clear: both;
   
 }
@@ -1077,9 +1077,9 @@ font-size: 14px;
 
   #site-title { 
   
-    font-size: 3vw;
+   
     color: #3c3d3f;
-    margin: 0 35px 0 0;
+    margin: 100px 35px 0 0;
     font-size: 100px;
     width: 500px;
     
@@ -1092,9 +1092,19 @@ font-size: 14px;
   }
   
 .top-area{ 
- margin: -140px 0 0 -45px;
+ margin: -40px 0 0 -45px;
     
  }
+ #fh5co-aside #fh5co-main-menu ul li a {
+  
+  font-size: 16px;
+}
+#fh5co-main .fh5co-narrow-content {
+  
+  margin: 5px auto;  
+
+  
+}
 
 }
 /* ----------------------media 992px--------------------------------- */
@@ -1134,10 +1144,19 @@ font-size: 14px;
   #fh5co-hero .flexslider .slider-text > .slider-text-inner .heading-section {
     font-size: 30px;
   }
-  .top-area{ 
-    /* display: none; */
-  }
+  #site-title { 
   
+    font-size: 3vw;
+    color: #3c3d3f;
+    margin: 125px 35px 0 0;
+    font-size: 100px;
+    width: 500px;
+    
+  }
+  .top-area{ 
+    margin: -20px 0 0 -45px;
+       
+    }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
