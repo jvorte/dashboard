@@ -162,6 +162,7 @@ figure figcaption {
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-logo {
     margin-bottom: 1em;
+   
   }
 }
 #fh5co-aside #fh5co-logo a {
@@ -606,6 +607,20 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   .work {
     height: 270px;
   }
+  #site-title{
+
+  font-size: 50px;  
+  margin: 10px 0 0 50px;
+
+  }
+  #site-subtitle{
+    font-size: 15px;
+    margin: 10px 0 0 0; 
+    
+  }
+  .top-area{ 
+    display: none;
+  }
 }
 .work .desc {
   display: table-cell;
@@ -637,6 +652,9 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   .work .desc {
     opacity: 1;
     background: transparent !important;
+  }
+  .top-area{ 
+    display: none;
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
