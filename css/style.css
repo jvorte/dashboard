@@ -19,7 +19,7 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.6;
-  color: rgba(0, 0, 0, 0.5);
+  color: #3c3d3f;
   background: whitesmoke;
 }
 /* top title for site */
@@ -58,7 +58,7 @@ body {
 }
 
 a {
-  color: #1d1e1f;
+  color: #3c3d3f;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -165,7 +165,7 @@ figure figcaption {
   }
 }
 #fh5co-aside #fh5co-logo a {
-  color: #000;
+  color:#3c3d3f;
   text-decoration: none;
 }
 #fh5co-aside #fh5co-logo a span {
