@@ -24,11 +24,11 @@ body {
 }
 /* top title for site */
 .top-area{ 
- height: 310px;
+ height: 330px;
  background-image: url(../images/office4.png);
  background-size: contain;
  background-repeat: no-repeat; 
- background-position:  right 55% bottom 5%;
+ background-position:  right 55% bottom 1%;
  
 }
 #site-title { 
@@ -1321,9 +1321,6 @@ font-size: 14px;
  margin: -170px 0 0 125px;
  width: 310px; 
  }
- .top-area{ 
-  /* display: none; */
-}
 
 }
 /* ----------------------media 480px--------------------------------- */
