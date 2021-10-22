@@ -766,6 +766,7 @@ font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #f71008;
 }
 .fh5co-heading.fh5co-light {
   color: #fff;
@@ -1112,20 +1113,21 @@ font-size: 14px;
   #site-title {   
    
     color: #3c3d3f;
-    margin: 100px 35px 0 0;
-    font-size: 100px;
-    width: 500px;
+    margin: 0px 0 0 150px;
+    font-size: 70px;
+    width: 470px;
     
   }
 
   #site-subtitle{
-    margin: 0 55px 0 0;
+    margin: 0px 0 0 100px;
     width: 500px;
   
   }
   
 .top-area{ 
- margin: -40px 0 0 -45px;
+ margin: 5px 0 0 -500px;
+ width: 400px;
     
  }
  #fh5co-aside #fh5co-main-menu ul li a {
@@ -1150,6 +1152,25 @@ font-size: 14px;
   body {
     font-size: 16px;
   }
+
+  #site-title { 
+  
+    font-size: 3vw;
+    color: #3c3d3f;
+    margin: 0 15px 0 0;
+    font-size: 100px;
+    width: 550px;
+    
+  }
+  #site-subtitle{
+    margin: 55px 55px 0 0;
+    width: 500px;
+  
+  }
+  .top-area{ 
+    margin: 0 0 0 -145px;
+    width: 450px;   
+    }
 }
 /* ----------------------media 768px--------------------------------- */
 
@@ -1177,19 +1198,27 @@ font-size: 14px;
   #fh5co-hero .flexslider .slider-text > .slider-text-inner .heading-section {
     font-size: 30px;
   }
-  #site-title { 
+  #site-title {  
   
-    font-size: 3vw;
     color: #3c3d3f;
-    margin: 125px 35px 0 0;
-    font-size: 100px;
+    margin: 60px 35px 0 100px;
+    font-size: 75px;
     width: 500px;
     
-  }
-  .top-area{ 
-    margin: -20px 0 0 -45px;
-       
+  } 
+   #site-subtitle{
+      margin: 120px 0 0 120px;
+      width: 500px;
+     
     }
+  .top-area{ 
+
+    margin: -100px 0 0 95px;
+    width: 500px;
+
+       
+  }
+  
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -1259,7 +1288,9 @@ font-size: 14px;
     visibility: visible;
   }
   .fh5co-heading {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    margin-top: -40px;
   }
   #fh5co-aside .fh5co-footer {
    
@@ -1274,21 +1305,21 @@ font-size: 14px;
   #site-title { 
   
    color: #3c3d3f;
-    margin: 50px 35px 0 15px;
-    font-size: 70px;
+    margin: 0 -120px 0 5px;
+    font-size: 50px;
     /* width: 300px; */
     
   }
 
   #site-subtitle{
-    margin: 0 55px 0 0;
-    width: 300px;
+    margin: 65px 55px 0 0;
+    width: 600px;
   
   }
   
 .top-area{ 
- margin: -290px 0 0 345px;
-    
+ margin: -170px 0 0 125px;
+ width: 310px; 
  }
  .top-area{ 
   /* display: none; */
@@ -1308,29 +1339,23 @@ font-size: 14px;
     height: 270px;
   }
   #site-title{
-text-align: center;
+
   font-size: 40px;  
-  margin: 70px 00px 0 50px;
+  margin: 70px -230px 0 0;
 
   }
-  #site-subtitle{
-    font-size: 15px;
-    margin: 10px 0 0 0; 
-    
-  }
-  .top-area{ 
-    display: none;
-  }
-
-  #site-subtitle{
-    margin: 0 55px 0 0;
-    width: 300px;
   
+
+  #site-subtitle{
+    margin: 120px 0 0 30px;
+    width: 300px;
+    font-size: 15px;
   }
+ 
   
 .top-area{ 
- /* margin: -290px 0 0 345px; */
-    
+ margin: -170px 0 0 12px;
+    /* display: none; */  
  }
 
 }
