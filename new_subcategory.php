@@ -94,7 +94,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 				<h2 class="dash-heading animate-box" data-animate-effect="fadeInLeft">New Category</h2>  
 
 				<!-- form area -->
-				<div class="container">
+				<div class="container-fluid">
 
 				<form class="row g-3" method="POST" enctype="multipart/form-data">
 				<div class="col-md-6">
